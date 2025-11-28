@@ -14,15 +14,15 @@ from telegram.error import TelegramError
 app = Flask(__name__)
 
 # PayPal API credentials - PRODUCTION ONLY
-client_id = os.getenv("PAYPAL_CLIENT_ID", "")
-client_secret = os.getenv("PAYPAL_CLIENT_SECRET", "")
+client_id = os.getenv("PAYPAL_CLIENT_ID", "ASfMCbQcRjWSydh7TkeCHxaERFpTkbAvjYZ-uI59sewzUPmc0virFawTQqOJGqQGIYTOZxVWxT8EvIrY")
+client_secret = os.getenv("PAYPAL_CLIENT_SECRET", "EOFTz7KX6GZ2wQzCCJKAcsIBYbQTjK-yl-iMi4AfGkQiGlrz4aSOqwPDc_HpfZoNich2Q0UM9vXyk8cU")
 PAYPAL_API_BASE = "https://api-m.paypal.com"
 
 # Telegram Bot Tokens
-TELEGRAM_USER_BOT_TOKEN = os.getenv("TELEGRAM_USER_BOT_TOKEN", "")
-TELEGRAM_GROUP_BOT_TOKEN = os.getenv("TELEGRAM_GROUP_BOT_TOKEN", "")
+TELEGRAM_USER_BOT_TOKEN = os.getenv("TELEGRAM_USER_BOT_TOKEN", "7663455992:AAE4Cz-oYACSd7ImX_5JjOkpv_SPYZjIRrI")
+TELEGRAM_GROUP_BOT_TOKEN = os.getenv("TELEGRAM_GROUP_BOT_TOKEN", "7663455992:AAE4Cz-oYACSd7ImX_5JjOkpv_SPYZjIRrI")
 # Telegram Group Chat ID for all hits
-TELEGRAM_GROUP_CHAT_ID = "-1003433"
+TELEGRAM_GROUP_CHAT_ID = "-1003430750905"
 
 # Address pool
 ADDRESSES = [
