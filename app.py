@@ -14,8 +14,8 @@ from telegram.error import TelegramError
 app = Flask(__name__)
 
 # PayPal API credentials - PRODUCTION ONLY
-client_id = os.getenv("PAYPAL_CLIENT_ID", "AXP2iDzF48kKLXNCXqgQE0Qjt1DFwMYX0CtIPcS-M7fc5ho4oouPZImcKnqPiDlBLjAkJ8pKAQxLQJTv")
-client_secret = os.getenv("PAYPAL_CLIENT_SECRET", "EFRnlizx2a0NGdr4VdCDKPMitxWg2dwwHQ3z1cT2U-aQ56I7I1MGheJtt4NVhxqOAd1xBktwPIzFOeaO")
+client_id = os.getenv("PAYPAL_CLIENT_ID", ": AaxhtJJA0nr5yaI-6GppVrCVqTCDWt_8sqGPio39eabV5HVKH2tqHBb5FX0up_GYaUwFMVG9oG-f1Kxu")
+client_secret = os.getenv("PAYPAL_CLIENT_SECRET", "EEZ3igwmGHJ4_VZCA6ICOf1JAJL1yhbVQFdX3s8BqYhfE_sCo5E1SEYkQnn-do9YlLNeJ7LSo8sOLpT7")
 PAYPAL_API_BASE = "https://api-m.paypal.com"
 
 # Telegram Bot Tokens
